@@ -138,3 +138,9 @@ just click "create"</br>
 ![15](imgs/15.png)
 ![16](imgs/16.png)
 ![1](imgs/1.png)
+
+## How to us it
+first, click this button
+![18](imgs/18.png)
+then, drag the arrow at some point in the map
+![instruction](imgs/instruction.gif)
