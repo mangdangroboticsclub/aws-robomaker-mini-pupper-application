@@ -1,0 +1,16 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+
+# Source is previously built image
+FROM mini-pupper-base:1.0
+WORKDIR /home/robomaker/workspace/robot_ws
+
+# Build the Robot application
+RUN /bin/bash -c "source /opt/ros/melodic/setup.bash && rosdep install --rosdistro melodic --from-paths src --ignore-src -r -y && colcon build && sudo apt clean"
+
+# Add entrypoint script and grant permission
+COPY scripts/robot-entrypoint.sh robot-entrypoint.sh
+RUN sh -c 'sudo chmod +x robot-entrypoint.sh && sudo chown robomaker:robomaker robot-entrypoint.sh'
+
+CMD roslaunch mini_pupper_navigation navigate.launch
+ENTRYPOINT [ "/home/robomaker/workspace/robot_ws/robot-entrypoint.sh" ]
