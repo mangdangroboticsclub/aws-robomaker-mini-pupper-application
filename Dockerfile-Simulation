@@ -5,6 +5,8 @@
 FROM mini-pupper-base:1.0
 WORKDIR /home/robomaker/workspace/simulation_ws
 
+RUN sudo apt install ros-melodic-gazebo-* ros-melodic-ros-control -y
+
 # Build the Robot application
 RUN /bin/bash -c "source /opt/ros/melodic/setup.bash && rosdep install --rosdistro melodic --from-paths src --ignore-src -r -y && colcon build --cmake-args '-Wno-dev' && sudo apt clean"
 

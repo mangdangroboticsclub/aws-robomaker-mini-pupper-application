@@ -13,9 +13,13 @@ RUN apt-get update && apt-get install -y \
     python-vcstool \
     python-rosinstall \
     python3-colcon-common-extensions \
+    ros-melodic-desktop-full \
     ros-melodic-rviz \
     ros-melodic-rqt \
     ros-melodic-rqt-common-plugins \
+    ros-melodic-iris-lama \
+    ros-melodic-iris-lama-ros \
+    sphinxsearch \
     devilspie \
     xfce4-terminal
 
@@ -39,5 +43,6 @@ RUN sh -c 'cd /home/$USERNAME'
 RUN sh -c 'mkdir -p /home/robomaker/workspace/robot_ws/src && mkdir -p /home/robomaker/workspace/simulation_ws/src && cd /home/robomaker/workspace'
 ADD robot_ws/src /home/robomaker/workspace/robot_ws/src
 ADD simulation_ws/src /home/robomaker/workspace/simulation_ws/src
+
 
 RUN sudo rosdep fix-permissions && rosdep update
