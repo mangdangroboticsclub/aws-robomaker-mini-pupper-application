@@ -13,7 +13,6 @@ RUN apt-get update && apt-get install -y \
     python-vcstool \
     python-rosinstall \
     python3-colcon-common-extensions \
-    ros-melodic-desktop-full \
     ros-melodic-rviz \
     ros-melodic-rqt \
     ros-melodic-rqt-common-plugins \
