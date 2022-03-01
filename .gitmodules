@@ -2,6 +2,6 @@
 	path = simulation_ws/src/yocs_velocity_smoother
 	url = https://github.com/chvmp/yocs_velocity_smoother.git
 [submodule "simulation_ws/src/champ/include/champ"]
-	path = champ/include/champ
+	path = simulation_ws/src/champ/champ/include/champ
 	url = https://github.com/chvmp/libchamp
 	branch = master
