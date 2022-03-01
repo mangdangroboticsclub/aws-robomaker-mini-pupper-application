@@ -1,6 +1,3 @@
-[submodule "simulation_ws/src/champ"]
-	path = simulation_ws/src/champ
-	url = https://github.com/chvmp/champ.git
 [submodule "simulation_ws/src/yocs_velocity_smoother"]
 	path = simulation_ws/src/yocs_velocity_smoother
 	url = https://github.com/chvmp/yocs_velocity_smoother.git
