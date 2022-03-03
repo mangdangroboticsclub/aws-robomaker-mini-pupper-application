@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_base/devel
+
+Name: champ_base
+Description: Description of champ_base
+Version: 0.1.0
+Cflags: -I/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/src/champ/champ_base/include
+Libs: -L${prefix}/lib -lchamp_base
+Requires: roscpp rospy champ_msgs visualization_msgs geometry_msgs sensor_msgs trajectory_msgs nav_msgs tf tf2_ros urdf message_filters

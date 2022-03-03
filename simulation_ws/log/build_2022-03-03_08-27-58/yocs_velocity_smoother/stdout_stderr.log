@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother
+[35m[1mScanning dependencies of target yocs_velocity_smoother_gencfg[0m
+[ 33%] [34m[1mGenerating dynamic reconfigure files from cfg/params.cfg: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/include/yocs_velocity_smoother/paramsConfig.h /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py[0m
+Generating reconfiguration files for params in yocs_velocity_smoother
+Wrote header file in /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/include/yocs_velocity_smoother/paramsConfig.h
+[ 33%] Built target yocs_velocity_smoother_gencfg
+[35m[1mScanning dependencies of target yocs_velocity_smoother_nodelet[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/yocs_velocity_smoother_nodelet.dir/src/velocity_smoother_nodelet.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libyocs_velocity_smoother_nodelet.so[0m
+[100%] Built target yocs_velocity_smoother_nodelet
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 33%] Built target yocs_velocity_smoother_gencfg
+[100%] Built target yocs_velocity_smoother_nodelet
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/include/yocs_velocity_smoother/paramsConfig.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/__init__.py
+Listing /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/__init__.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/yocs_velocity_smoother/devel/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py ...
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/__init__.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/paramsConfig.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/python2.7/dist-packages/yocs_velocity_smoother/cfg/__init__.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/pkgconfig/yocs_velocity_smoother.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/cmake/yocs_velocity_smootherConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/cmake/yocs_velocity_smootherConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/package.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/libyocs_velocity_smoother_nodelet.so
+-- Set runtime path of "/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/lib/libyocs_velocity_smoother_nodelet.so" to ""
+-- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/include/yocs_velocity_smoother
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/include/yocs_velocity_smoother/velocity_smoother_nodelet.hpp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/plugins
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/plugins/nodelets.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/launch/test_translational_smoothing.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/launch/standalone.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/launch/velocity_smoother.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/param
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/yocs_velocity_smoother/share/yocs_velocity_smoother/param/standalone.yaml

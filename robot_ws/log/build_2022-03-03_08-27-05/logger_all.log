@@ -1,0 +1,140 @@
+[3.645s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[3.646s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9a83dd7ba8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9a83dd7ba8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9a83dd7f98>)
+[3.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.678s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extension 'ignore'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extension 'ignore_ament_install'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extensions ['colcon_pkg']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extension 'colcon_pkg'
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extensions ['colcon_meta']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extension 'colcon_meta'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extensions ['ros']
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_pupper_navigation) by extension 'ros'
+[3.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_pupper_navigation' with type 'ros.catkin' and name 'mini_pupper_navigation'
+[3.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.889s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_args' from command line to 'None'
+[3.889s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_target' from command line to 'None'
+[3.889s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.889s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[3.890s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[3.890s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[3.890s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[3.890s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[3.890s] Level 5:colcon.colcon_core.verb:set package 'mini_pupper_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.890s] DEBUG:colcon.colcon_core.verb:Building package 'mini_pupper_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation', 'merge_install': False, 'path': '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/src/mini_pupper_navigation', 'symlink_install': False, 'test_result_base': None}
+[3.893s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.918s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.919s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/src/mini_pupper_navigation' with build type 'catkin'
+[3.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/src/mini_pupper_navigation'
+[3.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.946s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[3.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/src/mini_pupper_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation
+[22.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/src/mini_pupper_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation
+[22.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation -- -j4 -l4
+[22.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation -- -j4 -l4
+[22.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target tests -- -j4 -l4
+[22.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target tests -- -j4 -l4
+[22.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target install -- -j4 -l4
+[22.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target install -- -j4 -l4
+[22.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_pupper_navigation', 'ros_package_path')
+[22.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/ros_package_path.ps1'
+[22.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/ros_package_path.dsv'
+[22.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/ros_package_path.sh'
+[22.581s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/lib/python2.7/dist-packages'
+[22.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_pupper_navigation', 'pkg_config_path')
+[22.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path.ps1'
+[22.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path.dsv'
+[22.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path.sh'
+[22.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_pupper_navigation', 'pkg_config_path_multiarch')
+[22.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path_multiarch.ps1'
+[22.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path_multiarch.dsv'
+[22.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config_path_multiarch.sh'
+[22.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_pupper_navigation)
+[22.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation' for CMake module files
+[22.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation' for CMake config files
+[22.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_pupper_navigation', 'cmake_prefix_path')
+[22.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/cmake_prefix_path.ps1'
+[22.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/cmake_prefix_path.dsv'
+[22.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/cmake_prefix_path.sh'
+[22.650s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/lib'
+[22.650s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/bin'
+[22.650s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/lib/pkgconfig/mini_pupper_navigation.pc'
+[22.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_pupper_navigation', 'pkg_config')
+[22.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config.ps1'
+[22.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config.dsv'
+[22.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/hook/pkg_config.sh'
+[22.661s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/lib/python3.6/site-packages'
+[22.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.ps1'
+[22.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.dsv'
+[22.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.sh'
+[22.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.bash'
+[22.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.zsh'
+[22.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/colcon-core/packages/mini_pupper_navigation)
+[22.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.697s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.698s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[22.698s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/local_setup.ps1'
+[22.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/_local_setup_util_ps1.py'
+[22.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/setup.ps1'
+[22.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/local_setup.sh'
+[22.721s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/_local_setup_util_sh.py'
+[22.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/setup.sh'
+[22.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/local_setup.bash'
+[22.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/setup.bash'
+[22.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/local_setup.zsh'
+[22.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/setup.zsh'

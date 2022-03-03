@@ -1,0 +1,221 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.87
+-- Found Simbody: /usr/include/simbody  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+-- Boost version: 1.65.1
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.2.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.31.1
+-- Found UUID: TRUE  
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+-- Checking for module 'gts'
+--   Found gts, version 0.7.6
+-- Found GTS: TRUE  
+-- Checking for module 'libswscale'
+--   Found libswscale, version 4.8.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 57.10.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 57.83.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 57.107.100
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 55.78.100
+-- Found AVUTIL: TRUE  
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.1.7
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.1.2
+-- Found ZIP: TRUE  
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_gazebo/devel
+-- Using CMAKE_PREFIX_PATH: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs;/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ;/opt/ros/melodic
+-- This workspace overlays: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs;/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_gazebo/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_gazebo
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target champ_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target champ_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target champ_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target champ_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target champ_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target contact_sensor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/champ_gazebo/contact_sensor[0m
+[100%] Built target contact_sensor
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target champ_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target champ_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target champ_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target champ_msgs_generate_messages_cpp
+[  0%] Built target champ_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[100%] Built target contact_sensor
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/package.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/imu_sensor.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/odometry_tf.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/odometry.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/contact_sensor
+-- Set runtime path of "/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/contact_sensor" to ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_robot.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_world.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/config
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/config/ros_control.yaml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/worlds
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/worlds/default.world
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/worlds/outdoor.world

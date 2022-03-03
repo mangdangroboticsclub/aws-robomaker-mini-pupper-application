@@ -1,0 +1,6 @@
+<launch>
+  <!-- deploy rotate system -->
+  <include file="$(find hello_world_robot)/launch/rotate.launch">
+    <arg name="use_sim_time" value="false"/>
+  </include>
+</launch>

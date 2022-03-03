@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_description/setup.sh

@@ -1,0 +1,14 @@
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/package.xml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/imu_sensor.py
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/odometry_tf.py
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/odometry.py
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/lib/champ_gazebo/contact_sensor
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_robot.launch
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/spawn_world.launch
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/config/ros_control.yaml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/worlds/default.world
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo/share/champ_gazebo/worlds/outdoor.world

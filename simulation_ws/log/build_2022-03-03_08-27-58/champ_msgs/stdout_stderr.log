@@ -1,0 +1,279 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- champ_msgs: 9 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_PID[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Point[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Imu[0m
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_ContactsStamped[0m
+[  0%] Built target _champ_msgs_generate_messages_check_deps_PID
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Point
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Contacts[0m
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Velocities[0m
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _champ_msgs_generate_messages_check_deps_ContactsStamped
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Pose[0m
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_Joints[0m
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Contacts
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Pose
+[35m[1mScanning dependencies of target _champ_msgs_generate_messages_check_deps_PointArray[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Joints
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _champ_msgs_generate_messages_check_deps_PointArray
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  2%] [34m[1mGenerating Javascript code from champ_msgs/Contacts.msg[0m
+[  4%] [34m[1mGenerating Lisp code from champ_msgs/Contacts.msg[0m
+[  6%] [34m[1mGenerating Python from MSG champ_msgs/Contacts[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_eus[0m
+[  8%] [34m[1mGenerating EusLisp code from champ_msgs/Contacts.msg[0m
+[ 10%] [34m[1mGenerating Javascript code from champ_msgs/Velocities.msg[0m
+[ 12%] [34m[1mGenerating Lisp code from champ_msgs/Velocities.msg[0m
+[ 14%] [34m[1mGenerating Javascript code from champ_msgs/Imu.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from champ_msgs/Imu.msg[0m
+[ 19%] [34m[1mGenerating EusLisp code from champ_msgs/Velocities.msg[0m
+[ 21%] [34m[1mGenerating Javascript code from champ_msgs/Pose.msg[0m
+[ 23%] [34m[1mGenerating Lisp code from champ_msgs/Pose.msg[0m
+[ 25%] [34m[1mGenerating Javascript code from champ_msgs/PID.msg[0m
+[ 27%] [34m[1mGenerating EusLisp code from champ_msgs/Imu.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from champ_msgs/PID.msg[0m
+[ 31%] [34m[1mGenerating Javascript code from champ_msgs/Joints.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from champ_msgs/Joints.msg[0m
+[ 36%] [34m[1mGenerating EusLisp code from champ_msgs/Pose.msg[0m
+[ 38%] [34m[1mGenerating Javascript code from champ_msgs/ContactsStamped.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from champ_msgs/ContactsStamped.msg[0m
+[ 42%] [34m[1mGenerating Javascript code from champ_msgs/PointArray.msg[0m
+[ 44%] [34m[1mGenerating Lisp code from champ_msgs/PointArray.msg[0m
+[ 46%] [34m[1mGenerating EusLisp code from champ_msgs/PID.msg[0m
+[ 48%] [34m[1mGenerating Javascript code from champ_msgs/Point.msg[0m
+[ 51%] [34m[1mGenerating Lisp code from champ_msgs/Point.msg[0m
+[ 51%] Built target champ_msgs_generate_messages_nodejs
+[ 51%] Built target champ_msgs_generate_messages_lisp
+[ 53%] [34m[1mGenerating EusLisp code from champ_msgs/Joints.msg[0m
+[ 55%] [34m[1mGenerating EusLisp code from champ_msgs/ContactsStamped.msg[0m
+[ 57%] [34m[1mGenerating Python from MSG champ_msgs/Velocities[0m
+[ 59%] [34m[1mGenerating EusLisp code from champ_msgs/PointArray.msg[0m
+[ 61%] [34m[1mGenerating EusLisp code from champ_msgs/Point.msg[0m
+[ 63%] [34m[1mGenerating EusLisp manifest code for champ_msgs[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_cpp[0m
+[ 65%] [34m[1mGenerating C++ code from champ_msgs/Contacts.msg[0m
+[ 68%] [34m[1mGenerating C++ code from champ_msgs/Velocities.msg[0m
+[ 70%] [34m[1mGenerating C++ code from champ_msgs/Imu.msg[0m
+[ 72%] [34m[1mGenerating C++ code from champ_msgs/Pose.msg[0m
+[ 72%] Built target champ_msgs_generate_messages_eus
+[ 74%] [34m[1mGenerating C++ code from champ_msgs/PID.msg[0m
+[ 76%] [34m[1mGenerating C++ code from champ_msgs/Joints.msg[0m
+[ 78%] [34m[1mGenerating C++ code from champ_msgs/ContactsStamped.msg[0m
+[ 80%] [34m[1mGenerating C++ code from champ_msgs/PointArray.msg[0m
+[ 82%] [34m[1mGenerating C++ code from champ_msgs/Point.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG champ_msgs/Imu[0m
+[ 85%] Built target champ_msgs_generate_messages_cpp
+[ 87%] [34m[1mGenerating Python from MSG champ_msgs/Pose[0m
+[ 95%] [34m[1mGenerating Python from MSG champ_msgs/PointArray[0m
+[ 95%] [34m[1mGenerating Python from MSG champ_msgs/ContactsStamped[0m
+[ 95%] [34m[1mGenerating Python from MSG champ_msgs/Joints[0m
+[ 95%] [34m[1mGenerating Python from MSG champ_msgs/PID[0m
+[ 97%] [34m[1mGenerating Python from MSG champ_msgs/Point[0m
+[100%] [34m[1mGenerating Python msg __init__.py for champ_msgs[0m
+[100%] Built target champ_msgs_generate_messages_py
+[35m[1mScanning dependencies of target champ_msgs_generate_messages[0m
+[100%] Built target champ_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Point
+[  0%] Built target _champ_msgs_generate_messages_check_deps_PID
+[  0%] Built target _champ_msgs_generate_messages_check_deps_ContactsStamped
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Contacts
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Pose
+[  0%] Built target _champ_msgs_generate_messages_check_deps_Joints
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _champ_msgs_generate_messages_check_deps_PointArray
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 21%] Built target champ_msgs_generate_messages_py
+[ 40%] Built target champ_msgs_generate_messages_lisp
+[ 59%] Built target champ_msgs_generate_messages_nodejs
+[ 80%] Built target champ_msgs_generate_messages_eus
+[100%] Built target champ_msgs_generate_messages_cpp
+[100%] Built target champ_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/PID.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Imu.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Point.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Joints.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/msg/Pose.msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs-msg-paths.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Imu.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Velocities.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Point.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/ContactsStamped.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/PointArray.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/PID.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Pose.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Contacts.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/include/champ_msgs/Joints.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/manifest.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/ContactsStamped.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Joints.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Point.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/PointArray.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Pose.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Velocities.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Contacts.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/Imu.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/roseus/ros/champ_msgs/msg/PID.l
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Contacts.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Imu.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Imu.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Point.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_PID.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/ContactsStamped.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/PID.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Pose.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Contacts.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Pose.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/champ_msgs-msg.asd
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Velocities.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Point.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/Joints.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Velocities.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_PointArray.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_Joints.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/_package_ContactsStamped.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/common-lisp/ros/champ_msgs/msg/PointArray.lisp
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/_index.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Point.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/ContactsStamped.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/PointArray.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/_index.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Pose.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Joints.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Contacts.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Velocities.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/PID.js
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/gennodejs/ros/champ_msgs/msg/Imu.js
+Listing /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/__init__.py ...
+Listing /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Contacts.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_ContactsStamped.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Imu.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Joints.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_PID.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Point.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_PointArray.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Pose.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/_Velocities.py ...
+Compiling /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_msgs/devel/lib/python2.7/dist-packages/champ_msgs/msg/__init__.py ...
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/__init__.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_ContactsStamped.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Imu.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_PointArray.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/__init__.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_PID.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Joints.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Joints.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Velocities.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Contacts.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_PointArray.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Imu.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_ContactsStamped.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Point.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Pose.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_PID.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Pose.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/__init__.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Contacts.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Point.pyc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/msg/_Velocities.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/python2.7/dist-packages/champ_msgs/__init__.py
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/lib/pkgconfig/champ_msgs.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs-msg-extras.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs/share/champ_msgs/package.xml

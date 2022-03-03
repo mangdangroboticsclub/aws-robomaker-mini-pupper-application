@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ/devel
+
+Name: champ
+Description: Description of champ
+Version: 0.1.0
+Cflags: -I/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/src/champ/champ/include -I/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/src/champ/champ/include/champ
+Libs: -L${prefix}/lib 
+Requires: 

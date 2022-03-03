@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/mini_pupper_gazebo/devel
+
+Name: mini_pupper_gazebo
+Description: Description of mini_pupper_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

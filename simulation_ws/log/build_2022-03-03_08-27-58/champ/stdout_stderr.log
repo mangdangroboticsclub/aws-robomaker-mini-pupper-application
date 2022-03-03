@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/lib/pkgconfig/champ.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/share/champ/cmake/champConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/share/champ/package.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/odometry
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/odometry/odometry.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/macros
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/macros/macros.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/leg_controller
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/leg_controller/phase_generator.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/leg_controller/trajectory_planner.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/leg_controller/leg_controller.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/body_controller
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/body_controller/body_controller.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/utils
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/utils/xmlrpc_helpers.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/utils/urdf_loader.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/geometry
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/geometry/geometry.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/kinematics
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/kinematics/kinematics.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/quadruped_base
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/quadruped_base/quadruped_components.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/quadruped_base/quadruped_joint.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/quadruped_base/quadruped_leg.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/quadruped_base/quadruped_base.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/bla
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/bla/memory_delegate.h
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ/include/champ/champ/bla/basic_linear_algebra.h

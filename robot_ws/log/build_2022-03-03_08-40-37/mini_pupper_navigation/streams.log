@@ -1,0 +1,43 @@
+[0.036s] Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation -- -j4 -l4
+[0.081s] Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation -- -j4 -l4
+[0.147s] Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target tests -- -j4 -l4
+[0.216s] Built target tests
+[0.227s] Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target tests -- -j4 -l4
+[0.301s] Invoking command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target install -- -j4 -l4
+[0.356s] [36mInstall the project...[0m
+[0.366s] -- Install configuration: ""
+[0.366s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/lib/pkgconfig/mini_pupper_navigation.pc
+[0.366s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/cmake/mini_pupper_navigationConfig.cmake
+[0.366s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/cmake/mini_pupper_navigationConfig-version.cmake
+[0.367s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/package.xml
+[0.367s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch
+[0.368s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/deploy_rotate.launch
+[0.368s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/include
+[0.368s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/include/move_base.launch
+[0.368s] -- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/navigate.launch
+[0.368s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/launch/rotate.launch
+[0.368s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/map.pbstream
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/map.yaml
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/maps/map.pgm
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/rviz/navigate.rviz
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config
+[0.369s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/joints
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/joints/joints.yaml
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/ros_control
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/ros_control/ros_control.yaml
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/cartographer
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/cartographer/nav.lua
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/cartographer/slam.lua
+[0.370s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/gait
+[0.371s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/gait/gait.yaml
+[0.371s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/links
+[0.371s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/links/links.yaml
+[0.371s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base
+[0.371s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/local_costmap_params.yaml
+[0.372s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/base_local_planner_holonomic_params.yaml
+[0.372s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/move_base_params.yaml
+[0.372s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/costmap_common_params.yaml
+[0.372s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/install/mini_pupper_navigation/share/mini_pupper_navigation/config/move_base/global_costmap_params.yaml
+[0.373s] Invoked command in '/home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-mini-pupper-application/robot_ws/build/mini_pupper_navigation --target install -- -j4 -l4

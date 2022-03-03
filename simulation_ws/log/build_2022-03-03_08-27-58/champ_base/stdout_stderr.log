@@ -1,0 +1,291 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_base/devel
+-- Using CMAKE_PREFIX_PATH: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs;/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ;/opt/ros/melodic
+-- This workspace overlays: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_msgs;/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_base/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/build/champ_base
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target champ_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target champ_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target champ_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target champ_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target champ_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target champ_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target quadruped_controller[0m
+[35m[1mScanning dependencies of target message_relay[0m
+[35m[1mScanning dependencies of target state_estimation[0m
+[  8%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library devel/lib/libquadruped_controller.so[0m
+[ 41%] [32m[1mLinking CXX shared library devel/lib/libmessage_relay.so[0m
+[ 41%] Built target quadruped_controller
+[35m[1mScanning dependencies of target quadruped_controller_node[0m
+[ 41%] Built target message_relay
+[35m[1mScanning dependencies of target message_relay_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable devel/lib/champ_base/quadruped_controller_node[0m
+[ 75%] [32m[1mLinking CXX executable devel/lib/champ_base/message_relay_node[0m
+[ 75%] Built target message_relay_node
+[ 75%] Built target quadruped_controller_node
+[ 83%] [32m[1mLinking CXX shared library devel/lib/libstate_estimation.so[0m
+[ 83%] Built target state_estimation
+[35m[1mScanning dependencies of target state_estimation_node[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/champ_base/state_estimation_node[0m
+[100%] Built target state_estimation_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target champ_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target champ_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target champ_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target champ_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target champ_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[ 16%] Built target state_estimation
+[ 33%] Built target quadruped_controller
+[ 50%] Built target message_relay
+[100%] Built target quadruped_controller_node
+[100%] Built target message_relay_node
+[100%] Built target state_estimation_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/pkgconfig/champ_base.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/package.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/ekf
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/velocity_smoother
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libquadruped_controller.so
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+-- Set runtime path of "/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/quadruped_controller_node" to ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libmessage_relay.so
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/message_relay_node
+-- Set runtime path of "/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/message_relay_node" to ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libstate_estimation.so
+-- Installing: /home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/state_estimation_node
+-- Set runtime path of "/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/state_estimation_node" to ""

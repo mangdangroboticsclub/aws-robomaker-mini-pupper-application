@@ -1,0 +1,13 @@
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/pkgconfig/champ_base.pc
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/package.xml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libquadruped_controller.so
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libmessage_relay.so
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/message_relay_node
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/libstate_estimation.so
+/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_base/lib/champ_base/state_estimation_node

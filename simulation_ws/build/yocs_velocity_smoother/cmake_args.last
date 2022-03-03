@@ -1,0 +1,1 @@
+['-Wno-dev', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0']

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mini_pupper_navigation</name>
+  <version>1.4.1</version>
+  <description>
+    AWS RoboMaker robot package with a rotating Turtlebot3
+  </description>
+  <license>MIT</license>
+  <author email="ros-contributions@amazon.com">AWS RoboMaker</author>
+  <maintainer email="ros-contributions@amazon.com">AWS RoboMaker</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>actionlib</depend>
+  <depend>interactive_markers</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>roslaunch</depend>
+  <depend>gmapping</depend>
+  <depend>hector_mapping</depend>
+  <depend>octomap</depend>
+  <depend>octomap_server</depend>
+  <depend>map_server</depend>
+  <depend>move_base</depend>
+  <depend>global_planner</depend>
+  <depend>navfn</depend>
+  <depend>dwa_local_planner</depend>
+  <depend>base_local_planner</depend>
+  <depend>iris_lama_ros</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+</package>

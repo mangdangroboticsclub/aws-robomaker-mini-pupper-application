@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/champ_gazebo
+
+Name: champ_gazebo
+Description: Description of champ_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp
