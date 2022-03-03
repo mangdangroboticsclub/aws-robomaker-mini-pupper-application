@@ -1,1 +1,0 @@
-amcl:base_local_planner:dwa_local_planner:global_planner:gmapping:hector_mapping:map_server:move_base:navfn:octomap:octomap_server:pointcloud_to_laserscan:roslaunch

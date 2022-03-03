@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/environment/aws-robomaker-mini-pupper-application/simulation_ws/install/mini_pupper_description
-
-Name: mini_pupper_description
-Description: Description of mini_pupper_description
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

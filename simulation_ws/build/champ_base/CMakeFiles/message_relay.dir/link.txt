@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmessage_relay.so -o devel/lib/libmessage_relay.so CMakeFiles/message_relay.dir/src/message_relay.cpp.o 
