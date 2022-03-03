@@ -15,7 +15,9 @@
         </node>
 
         <!-- Localization -->
-        <node name="loc2d_ros" pkg="iris_lama_ros" type="loc2d_ros"/>
+        <node name="loc2d_ros" pkg="iris_lama_ros" type="loc2d_ros">
+            <param name="base_frame_id" value="base_footprint"/>
+        </node>
         
         <!-- Calls navigation stack -->
         <include file="$(find mini_pupper_navigation)/launch/include/move_base.launch">
