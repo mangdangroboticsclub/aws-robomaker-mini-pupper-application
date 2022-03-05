@@ -1,0 +1,24 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+
+# Source is previously built image
+FROM mini-pupper-base:1.0
+WORKDIR /home/robomaker/workspace/simulation_ws
+
+RUN sudo apt install ros-melodic-gazebo-* ros-melodic-ros-control -y
+
+# Build the Robot application
+RUN /bin/bash -c "source /opt/ros/melodic/setup.bash && rosdep install --rosdistro melodic --from-paths src --ignore-src -r -y && colcon build --cmake-args '-Wno-dev' && sudo apt clean"
+# Change log leven to debug
+# RUN sudo sed -i 's/INFO/DEBUG/' /opt/ros/melodic/share/ros/config/rosconsole.config
+
+# Add entrypoint script and grant permission
+COPY scripts/simulation-entrypoint.sh simulation-entrypoint.sh
+RUN sh -c 'sudo chmod +x simulation-entrypoint.sh && sudo chown robomaker:robomaker simulation-entrypoint.sh'
+
+# Cache models
+RUN sh -c "mkdir -p /home/robomaker/.gazebo/models"
+COPY models /home/robomaker/.gazebo/models
+
+CMD roslaunch mini_pupper_gazebo gazebo.launch
+ENTRYPOINT [ "/home/robomaker/workspace/simulation_ws/simulation-entrypoint.sh" ]

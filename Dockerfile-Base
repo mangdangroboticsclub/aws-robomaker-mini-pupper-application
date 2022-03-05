@@ -1,0 +1,47 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+FROM ros:melodic
+
+ENV DEBIAN_FRONTEND noninteractive
+# Install common dependency and ROS tools
+RUN apt-get update && apt-get install -y \
+    lsb  \
+    unzip \
+    wget \
+    curl \
+    sudo \
+    python-vcstool \
+    python-rosinstall \
+    python3-colcon-common-extensions \
+    ros-melodic-rviz \
+    ros-melodic-rqt \
+    ros-melodic-rqt-common-plugins \
+    ros-melodic-iris-lama \
+    ros-melodic-iris-lama-ros \
+    sphinxsearch \
+    devilspie \
+    xfce4-terminal
+
+ENV QT_X11_NO_MITSHM=1
+# Install Gazebo 9
+RUN wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -; \
+    sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+RUN apt-get update && apt-get install -y gazebo9 && apt-get clean
+
+# Create user to reduce privilege
+ARG USERNAME=robomaker
+RUN groupadd $USERNAME && \
+    useradd -ms /bin/bash -g $USERNAME $USERNAME && \
+    sh -c 'echo "$USERNAME ALL=(root) NOPASSWD:ALL" >> /etc/sudoers'
+    
+# Switch to newly created user    
+USER $USERNAME
+RUN sh -c 'cd /home/$USERNAME'
+
+# Copy our Robot and Simulation application
+RUN sh -c 'mkdir -p /home/robomaker/workspace/robot_ws/src && mkdir -p /home/robomaker/workspace/simulation_ws/src && cd /home/robomaker/workspace'
+ADD robot_ws/src /home/robomaker/workspace/robot_ws/src
+ADD simulation_ws/src /home/robomaker/workspace/simulation_ws/src
+
+
+RUN sudo rosdep fix-permissions && rosdep update
